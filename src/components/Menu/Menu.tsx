@@ -2,7 +2,6 @@ import React from "react";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { menusActions } from "../../store/Menu.store";
 import BtnAddTask from "../Utilities/BtnAddTask";
-import Directories from "./Directories/Directories";
 import NavLinks from "./NavLinks";
 import LayoutMenus from "../Utilities/LayoutMenus";
 
@@ -28,7 +27,6 @@ const Menu: React.FC = () => {
         </h1>
         <BtnAddTask className="my-8 mx-4" />
         <NavLinks classActive={classLinkActive} />
-        <Directories classActive={classLinkActive} />
       </header>
     </LayoutMenus>
   );

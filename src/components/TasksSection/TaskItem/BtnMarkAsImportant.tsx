@@ -21,7 +21,7 @@ const BtnMarkAsImportant: React.FC<{
     >
       <StarLine
         className={`w-5 h-5 sm:w-6 sm:h-6 ${
-          taskImportant ? "fill-rose-500 stroke-rose-500 " : "fill-none"
+          taskImportant ? "fill-blue-500 stroke-blue-500 " : "fill-none"
         }`}
       />
     </button>
